@@ -2,7 +2,7 @@
 <table style="width:100%">
    <tr>
       <td>区别</td>
-      <td style="width:25%">localStorage              </td>
+      <td style="width:25%">localStorage  </td>
       <td>sessionStorage  </td>
       <td>Service服务</td>
    </tr>
@@ -40,7 +40,7 @@
    <tr>
       <td>应用场景</td>
       <td style="width:25%">
-        <p>1、保存用户配置项：</p>
+        <p>1、保存用户配置项： &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
         <p>（1）记住用户名，登录密码（用于长期登录）；</p>
         <p>（2）判断用户是否已登录。</p>
         <p>2、保存用户的购物车信息。</p>
