@@ -1,20 +1,20 @@
 # localStorage+service缓存+sessionStorage的区别
-<table>
+<table style="width:100%">
    <tr>
       <td>区别</td>
-      <td>localStorage</td>
-      <td>sessionStorage</td>
+      <td style="width:200px">localStorage  </td>
+      <td>sessionStorage  </td>
       <td>Service服务</td>
    </tr>
    <tr>
       <td>生命周期</td>
-      <td>存储的数据被永久保存在本地，除非被清除</td>
+      <td style="width:200px">存储的数据被永久保存在本地，除非被清除</td>
       <td>生命周期为当前窗口或标签页，关闭标签页或浏览器后被清除（标签页指浏览器顶层的标签）</td>
       <td>应用整个生命周期结束的时候（关闭浏览器）才会被清除</td>
    </tr>
    <tr>
       <td>作用</td> 
-      <td>存储客户端临时信息的对象；</td>
+      <td style="width:200px">存储客户端临时信息的对象；</td>
       <td>存储客户端临时信息的对象；</td>
       <td>主要用于封装一个http的通信服务以便于不同的controller在
          不同场景中重复调用，提供共享的数据、方法
@@ -22,8 +22,8 @@
    </tr>
    <tr>
       <td>特点</td>
-      <td>
-         <p style="width:500px;">1、只能存储字符串类型的对象；</p>
+      <td style="width:200px">
+         <p>1、只能存储字符串类型的对象；&nbsp;</p>
          <p>2、存储的数据需要用户手动才能清除；</p>
          <p>3、相同浏览器的不同页面间可以共享其存储的数据。</p>
       </td>
