@@ -84,19 +84,20 @@
       <td>
 <pre>
 function getTest(isReload) { //用户传入状态
-   var deferred = $q.defer();
-   if (testList.length==0 || isReload) { 
+ var deferred = $q.defer();
+  if (testList.length==0 || isReload) { 
 //当初始状态和isRload状态为true时，向后台请求数据
-       $http({
-           method:'get',
-           url:"data/askdata.json",
-       }).success(function(resp){
-           resp.push(data);
-           deferred.resolve(resp);
-       });
+    $http({
+     method:'get',
+     url:"data/askdata.json",
+    }).success(function(resp){
+     resp.push(data);
+     deferred.resolve(resp);
+    });
    } else {
-//当isReload状态为undefined或false时，返回缓存中的数据
-       deferred.resolve(testList);
+//当isReload状态为undefined或false时，
+//返回缓存中的数据
+     deferred.resolve(testList);
    }
   return deferred.promise;
 };
