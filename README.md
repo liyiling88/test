@@ -1,5 +1,5 @@
 # localStorage+service缓存+sessionStorage的区别
-<table style="width:100%">
+<table width="100%" border="1" cellpadding="0" cellspacing="0" style="table-layout:fixed">
    <tr>
       <td>区别</td>
       <td style="width:25%">localStorage  </td>
@@ -40,7 +40,7 @@
    <tr>
       <td>应用场景</td>
       <td style="width:25%">
-        <p>1、保存用户配置项： &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <p>1、保存用户配置项：</p>
         <p>（1）记住用户名，登录密码（用于长期登录）；</p>
         <p>（2）判断用户是否已登录。</p>
         <p>2、保存用户的购物车信息。</p>
