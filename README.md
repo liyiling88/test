@@ -1,8 +1,8 @@
 # localStorage+service缓存+sessionStorage的区别
 <table width="100%" style="table-layout:fixed">
    <tr>
-      <td style="100px">区别</td>
-      <td style="width:25%">localStorage  </td>
+      <td>区别</td>
+      <td>localStorage  </td>
       <td>sessionStorage  </td>
       <td>Service服务</td>
    </tr>
@@ -22,7 +22,7 @@
    </tr>
    <tr>
       <td>特点</td>
-      <td style="width:25%">
+      <td>
          <p>1、只能存储字符串类型的对象；&nbsp;</p>
          <p>2、存储的数据需要用户手动才能清除；</p>
          <p>3、相同浏览器的不同页面间可以共享其存储的数据。</p>
@@ -39,7 +39,7 @@
    </tr>
    <tr>
       <td>应用场景</td>
-      <td style="width:25%">
+      <td>
         <p>1、保存用户配置项：</p>
         <p>（1）记住用户名，登录密码（用于长期登录）；</p>
         <p>（2）判断用户是否已登录。</p>
@@ -60,7 +60,7 @@
    </tr>
    <tr>
       <td rowspan="2">共同点</td>
-      <td colspan="2" style="width:50%">
+      <td colspan="2">
         <p>1、不同浏览器无法共享localStorage或sessionStorage中的信息。</p>
         <p>2、仅在客户端（即浏览器）中保存，不参与和服务器的通信。</p>
         <p>3、保存的数据不会再发送给服务器，避免带宽浪费。</p>
@@ -75,7 +75,7 @@
    </tr>
    <tr>
       <td>方法</td>
-      <td colspan="2" style="width:80%">
+      <td colspan="2">
         <p>getItem(key): 获取键值key对应的值</p>
         <p>setItem(key, value): 添加数据，键值为key，值为value</p>
         <p>removeItem(key): 移除键值为key的数据</p>
