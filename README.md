@@ -1,7 +1,7 @@
 # localStorage+service缓存+sessionStorage的区别
-<table width="100%" border="1" cellpadding="0" cellspacing="0" style="table-layout:fixed">
+<table width="100%" style="table-layout:fixed">
    <tr>
-      <td>区别</td>
+      <td style="100px">区别</td>
       <td style="width:25%">localStorage  </td>
       <td>sessionStorage  </td>
       <td>Service服务</td>
