@@ -1,6 +1,3 @@
-# test
-# localStorage+service缓存+sessionStorage的区别
-# test
 # localStorage+service缓存+sessionStorage的区别
 <table>
    <tr>
@@ -55,7 +52,8 @@
       </td>
       <td>
         <p>1、定义共享的模拟数据。</p>
-        <p>2、共享获取到的后台数据，对后台数据进行缓存，以便各个页面都可以获取数据，节约请求后台资源，但是当后台数据在页面上被用户修改时，需要重新从后台获取，而不能直接从service里直接获取。</p>
+        <p>2、共享获取到的后台数据，对后台数据进行缓存，以便各个页面都可以获取数据，节约请求后台资源，
+           但是当后台数据在页面上被用户修改时，需要重新从后台获取，而不能直接从service里直接获取。</p>
       </td>
    </tr>
    <tr>
@@ -85,7 +83,8 @@
         <pre>
         function getTest(isReload) { //用户传入状态
             var deferred = $q.defer();
-            if (testList.length==0 || isReload) { //当初始状态和isRload状态为true时，向后台请求数据
+            if (testList.length==0 || isReload) { 
+            //当初始状态和isRload状态为true时，向后台请求数据
                 $http({
                     method:'get',
                     url:"data/askdata.json",
