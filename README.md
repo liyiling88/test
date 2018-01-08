@@ -21,11 +21,9 @@
    <tr>
       <td>特点</td>
       <td>
-         <pre>
-         1、只能存储字符串类型的对象；
-         2、存储的数据需要用户手动才能清除；
-         3、相同浏览器的不同页面间可以共享其存储的数据。
-         </pre>
+         <p>1、只能存储字符串类型的对象；</p>
+         <p>2、存储的数据需要用户手动才能清除；</p>
+         <p>3、相同浏览器的不同页面间可以共享其存储的数据。</p>
       </td>
       <td>
          <p>1、只能存储字符串类型的对象；</p>
@@ -82,24 +80,24 @@
         <p>clear():清除所有数据</p>
       </td>
       <td>
-        <pre>
-        function getTest(isReload) { //用户传入状态
-            var deferred = $q.defer();
-            if (testList.length==0 || isReload) { 
-            //当初始状态和isRload状态为true时，向后台请求数据
-                $http({
-                    method:'get',
-                    url:"data/askdata.json",
-                }).success(function(resp){
-                    resp.push(data);
-                    deferred.resolve(resp);
-                });
-            } else {//当isReload状态为undefined或false时，返回缓存中的数据
-                deferred.resolve(testList);
-            }
-                return deferred.promise;
-        };
-        </pre>
+<pre>
+function getTest(isReload) { //用户传入状态
+   var deferred = $q.defer();
+   if (testList.length==0 || isReload) { 
+   //当初始状态和isRload状态为true时，向后台请求数据
+       $http({
+           method:'get',
+           url:"data/askdata.json",
+       }).success(function(resp){
+           resp.push(data);
+           deferred.resolve(resp);
+       });
+   } else {//当isReload状态为undefined或false时，返回缓存中的数据
+       deferred.resolve(testList);
+   }
+       return deferred.promise;
+};
+</pre>
       </td>
    </tr>
 </table>
