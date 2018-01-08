@@ -2,7 +2,7 @@
 <table style="width:100%">
    <tr>
       <td>区别</td>
-      <td style="width:25%">localStorage  </td>
+      <td style="width:25%">localStorage              </td>
       <td>sessionStorage  </td>
       <td>Service服务</td>
    </tr>
